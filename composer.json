@@ -1,0 +1,26 @@
+{
+  "name": "gamemakeracademy/ghost-api",
+  "version": "1.0.0",
+  "description": "API client for Ghost CMS",
+  "license": "MIT",
+  "scripts": {
+    "test": "phpunit"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "^5.0",
+    "phpunit/phpunit": "^9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "GameMakerAcademy\\GhostApi\\": "source"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GameMakerAcademy\\GhostApiTests\\": "tests"
+    }
+  }
+}
